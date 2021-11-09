@@ -29,6 +29,7 @@ def cipher(text, shift, encrypt=True):
     >>> cipher(text, shift, encrypt=False)
     'Thanksgiving'
     """
+    assert isinstance(shift, str) == False, "Cannot use strings for shift values"
     alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
     new_text = ''
     for c in text:
