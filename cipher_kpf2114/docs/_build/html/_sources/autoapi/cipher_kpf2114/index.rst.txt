@@ -1,0 +1,23 @@
+:py:mod:`cipher_kpf2114`
+========================
+
+.. py:module:: cipher_kpf2114
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   cipher_kpf2114/index.rst
+
+
+Package Contents
+----------------
+
+.. py:data:: __version__
+   
+
+   
+

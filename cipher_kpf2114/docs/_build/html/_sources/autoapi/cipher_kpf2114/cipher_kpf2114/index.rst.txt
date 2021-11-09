@@ -1,0 +1,47 @@
+:py:mod:`cipher_kpf2114.cipher_kpf2114`
+=======================================
+
+.. py:module:: cipher_kpf2114.cipher_kpf2114
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   cipher_kpf2114.cipher_kpf2114.cipher
+
+
+
+.. py:function:: cipher(text, shift, encrypt=True)
+
+   Encrypts strings by shifting each letter a specified number of places right or left in the alphabet. Can also decrypt strings the same way.
+
+   :param text: The text you will encrypt/decrypt
+   :type text: str
+   :param shift:  The amount you want to shift right or left in alphabet.
+                 encrypt: bool (default=True)
+                  A boolean that defines whether you are encrypting or decrypting the text
+   :type shift: int
+
+   :returns: The encrypted or decrypted result
+   :rtype: str
+
+   .. rubric:: Examples
+
+   >>> from cipher_kpf2114 import cipher_kpf2114
+   >>> text = 'hello'
+   >>> shift = 10
+   >>> cipher(text, shift, encrypt=True)
+   'rovvy'
+   >>> from cipher_kpf2114 import cipher_kpf2114
+   >>> text = 'iwpCzHvxKxCv'
+   >>> shift = 15
+   >>> cipher(text, shift, encrypt=False)
+   'Thanksgiving'
+
+
