@@ -23,6 +23,11 @@ def cipher(text, shift, encrypt=True):
     >>> shift = 10
     >>> cipher(text, shift, encrypt=True)
     'rovvy'
+    >>> from cipher_kpf2114 import cipher_kpf2114
+    >>> text = 'iwpCzHvxKxCv'
+    >>> shift = 15
+    >>> cipher(text, shift, encrypt=False)
+    'Thanksgiving'
     """
     alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
     new_text = ''
