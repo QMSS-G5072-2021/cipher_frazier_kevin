@@ -1,4 +1,5 @@
 from cipher_kpf2114 import cipher_kpf2114
+import pytest
 def cipher(text, shift, encrypt=True):
     assert isinstance(shift, str) == False, "Cannot use strings for shift values"
     alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
